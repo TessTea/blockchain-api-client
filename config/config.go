@@ -14,7 +14,6 @@ var configs = Config{}
 
 func LoadConfigs(configPath string) {
 	viper.SetEnvKeyReplacer(strings.NewReplacer(".", "_"))
-	// viper.SetEnvPrefix("KIDS")
 	viper.AutomaticEnv()
 
 	if configPath != "" {

@@ -32,8 +32,6 @@ func main() {
 	appHost := currentConfig.App.Host
 	appPort := currentConfig.App.Port
 
-	fmt.Println(currentConfig.Polygon.Url)
-
 	r := gin.Default()
 
 	r.GET("/block/number", func(c *gin.Context) {
