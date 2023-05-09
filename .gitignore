@@ -2,4 +2,3 @@ tf_check
 terraform/.terraform
 terraform/.terraform.lock.hcl
 terraform/*.tfstate*
-Readme.md
