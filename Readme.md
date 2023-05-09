@@ -95,3 +95,5 @@ http://<link-provided-by-output>/block/number
 4. Provide SSL-certificate using AWS-issuer with Cloudfront and Route53 dns records and Hosted Zones instead of using defauld http lb.
 
 5. Imporove Action-pipeline for creating a tagged image if git tags used instead of branches.
+
+6. Use autoscaler to increase number of app replicas by CPU or Memory consumption.
