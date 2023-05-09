@@ -6,7 +6,7 @@ on:
     - main
 
 env:
-  IMAGE: ghcr.io/TessTea/${{ github.event.repository.name }}
+  IMAGE: ghcr.io/tesstea/${{ github.event.repository.name }}
   SSH_AUTH_SOCK: /tmp/ssh_agent.sock
 
 jobs:
