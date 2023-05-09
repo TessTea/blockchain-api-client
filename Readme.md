@@ -30,7 +30,7 @@ A simple Go-based blockchain API client using the Gin framework. The application
 
 ### Running the Application
 
-NOTE: since viper-library used for providing config environment variables will be consumed from config.yml file, but might be owwerrided by env variables.
+**NOTE:** since viper-library used for providing config environment variables it will be consumed from config.yml file, but might be owwerrided by env variables.
 
 1. Build and run the Go application:
 
